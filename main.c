@@ -5,14 +5,15 @@
 
 int main(int argc, char *argv[]) {
 	
-	char c;
-	int i;
+	char c, cc;
 	
-	printf("input a number: ");
-	scanf("%c", &c);
 	
-	i= c-'0';
-	printf("The input number is %i\n",i);
+	printf("enter a character : ");
+	scanf("%c",&c);
+	
+	cc=c+1;
+	
+	printf("the next character of %c(%i) is %c(%i))",c,c,cc,cc);
 	
 	return 0;
 }
